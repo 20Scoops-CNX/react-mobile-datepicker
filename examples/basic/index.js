@@ -75,14 +75,14 @@ import DatePicker from "../../lib/index";
             isPopup={false}
             showCaption
             dateConfig={{
-              year: {
-                format: "YYYY",
-                caption: "年",
-                step: 1,
-              },
               month: {
                 format: "M",
                 caption: "月",
+                step: 1,
+              },
+              year: {
+                format: "YYYY",
+                caption: "年",
                 step: 1,
               },
               date: {
